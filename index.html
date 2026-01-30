@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Plier Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Shock-Suppressing Plier</h1>
+    <img src="images/sketches.png" alt="Plier Concept" class="diagram">
+
+    <div class="readings">
+      <p>Voltage: <span id="voltage">0V</span></p>
+      <p>Current: <span id="current">0A</span></p>
+      <p>Status: <span id="status">SAFE</span></p>
+    </div>
+
+    <button onclick="simulateReading()">Generate Reading</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
