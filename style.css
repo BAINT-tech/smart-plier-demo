@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.diagram {
+  max-width: 90%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.readings p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+#status {
+  font-weight: bold;
+}
+
+.safe { color: green; }
+.warning { color: orange; }
+.danger { color: red; }
